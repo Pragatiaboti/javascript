@@ -1,0 +1,91 @@
+.forms{
+height : 200px;
+width : 50%;
+margin-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+body {
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	background-color:#f7f7f7;
+}
+.container {
+  padding: 10px;
+    width:500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 90px;
+  transform: translate(-50%, -50%);
+    border:1px solid #ccc;
+    border-radius:10px;
+    background:white;
+-webkit-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+-moz-box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+box-shadow: 2px 1px 21px -9px rgba(0,0,0,0.38);
+}
+
+h1{
+	margin: auto;
+	text-align: center;
+}
+.colorchng
+{
+    animation: colorchngkattibatti 1s infinite;
+}
+
+@keyframes colorchngkattibatti 
+{
+    0%{color: yellow;}
+    
+    100%{color: rgb(32, 9, 245);}
+}
+h2{
+	margin-top: 3rem;
+	text-align: center;
+}
+span{
+	margin-left: 2rem;
+}
+
+.inp{
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7c5;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #0eb7f4;
+  display: inline-block;
+  
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:10px;
+}
+
+.button:hover {background-color: #0eb7f4}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
